@@ -1,12 +1,12 @@
 import "./App.css";
-import Counter from "./components/Counter";
+import Counter from "./components/Counter/Counter.jsx";
 import Greeting from "./components/Greeting";
 import UserProfile from "./components/UserProfile";
 
 function App() {
   return (
     <>
-      <Greeting name={"Pedro"} />
+      <Greeting name={"Pavel"} />
       <Counter />
       <UserProfile userId={4} />
     </>
